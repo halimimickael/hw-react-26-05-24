@@ -1,0 +1,55 @@
+
+.dark_edit{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark_edit .dark_box_edit{
+    max-width: 600px;
+    width:100%;
+    background: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.container_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(255,193,7,1) 0%, rgba(255,152,0,1) 100%);
+    color: #fff;
+  }
+  
+  .logo h2 {
+    font-family: 'Arial Black', Gadget, sans-serif;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link i {
+    margin-right: 0.5rem;
+  }
+  .nav-link.active {
+    background-color: #fff3cd;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .nav-link.active:hover {
+    background-color: #ffeeba;
+  }
+  
